@@ -43,6 +43,6 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: .
-          file: ./memcache/Dockerfile
+          file: ./Dockerfile
           push: true
           tags: ghcr.io/nucleoteam/ndb-memcache:${{ github.sha }}
