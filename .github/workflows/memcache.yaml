@@ -25,4 +25,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ghcr.io/nucleoteam/ndb-memcache:${{ github.sha }}
+          tags: ghcr.io/nucleoteam/nucleodb-memcache:${{ github.sha }}
